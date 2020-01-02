@@ -1,0 +1,88 @@
+@import url('jqtransform.css');
+
+body {
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  background: #f1f1f1;
+}
+
+/* bContact wrapper */
+div#bcontact 
+{
+  background: #fff;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  width: 417px;
+  margin: 0 auto;
+  padding: 10px;
+	border-bottom: 3px solid #fff;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+}
+
+div#bcontact a {
+  text-decoration: none;
+  color: #339900;
+}
+/* end of bContact wrapper */
+
+
+/* start bContact header */
+div#bcontact div.header
+{
+  text-align: center;
+  font-size: 2em;
+}
+
+div#bcontact div.header strong
+{
+  color: #000000;
+}
+div#bcontact div.header big
+{
+  color: #D93531;
+}
+
+div#bcontact div.header small
+{
+  color: #101010;
+}
+div#bcontact div.header small strong
+{
+  color: #2D2D2D;
+}
+/* end of bContact header */
+
+
+/* start bContact form and inputs settings */
+div#bcontact fieldset {border:0; width: 393px; }
+div#bcontact legend { text-transform: uppercase; padding-left:0; text-decoration: underline;}
+
+div#bcontact input { width: 300px;}
+div#bcontact input#anti_bot { width: 20px;  }
+div#bcontact p.bcontact_submit{ float: right; clear: both; color: red; }
+div#bcontact label { width: 75px; }
+div#bcontact textarea { width: 382px; }
+
+/* message label width - set auto */
+div#bcontact label[for=message] { width: auto; }
+
+/* label + input clearing */
+div#bcontact form p { margin-top: 5px; float: left; clear: left;}
+span.error_message {float: right; clear: left; display: none; margin-top:2px;border-top: 1px solid red;}
+span.error_message.anti_bot { float: left; }
+/* end of bContact form and inputs settings */
+
+/* sending progress */
+div#bContact_send_email { display: none; text-align: center; color: #FF7200; }
+div#bContact_email_sent { color: #429B00; text-align: center; display: none; }
+div#bContact_email_sent p { color: #949494;}
+
+
+/* start bContact footer */
+div#bcontact div#footer { text-align: right; font-size: 13px; padding-bottom: 1px;}
+div#bcontact div#footer a {color: #0061BB; font-weight: bold; text-decoration: none; }
+/* end of bContact footer */
